@@ -15,7 +15,6 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
-    cursor: pointer;
     text-decoration: none;
 }
 
@@ -34,11 +33,14 @@ body {
     text-decoration: none;
 }
 
+.button {
+    cursor: pointer;
+}
+
 /* Футер/Footer */
 
 .footer-nav .link {
     color: var(--title-text-color);
-    cursor: pointer;
     text-decoration: none;
 }
 
