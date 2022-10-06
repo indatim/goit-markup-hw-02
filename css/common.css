@@ -15,6 +15,7 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -22,3 +23,27 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
+/* Логотип/Logo */
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+/* Футер/Footer */
+
+.footer-nav .link {
+    color: var(--title-text-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--accent-color);
+}
+
