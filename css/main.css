@@ -12,7 +12,16 @@
 /* Герой */
 
 .hero {
-    color: var(--title-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3;
@@ -97,6 +106,33 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+/* Портфоліо/Portfolio */
+
+.portfolio-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+/* 
+.portfolio-text .link {
+    text-decoration: none;
+} */
 
 /* Адреса/Address */
 .address {
