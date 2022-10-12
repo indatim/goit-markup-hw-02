@@ -37,7 +37,7 @@ body {
 }
 
 .site-nav .contacts {
-    color: #757575;
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,8 +50,18 @@ body {
 }
 
 /* Логотип/Logo */
-.logo {
+.logoheader {
     color: #000000;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logofooter {
+    color: #FFFFFF;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -97,6 +107,7 @@ body {
 }
 
 .button-portfolio {
+    font-family: inherit;
     color: #000000;
     background-color: #F5F4FA;
     font-weight: 500;
